@@ -1,0 +1,86 @@
+#topnav {
+	width: 100%;
+}
+
+#topnav a {
+	color: #000;
+	text-decoration: none;
+	min-width: 60px;
+	display: inline-block;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+#topnav li {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+}
+
+body {
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+#main {
+	position: absolute;
+	width: 100%;
+	margin: 200px auto;
+}
+
+#searchbar input {
+	width: 466px;
+	height: 19px;
+	position: relative;
+}
+
+#logo {
+	position: relative;
+}
+
+#buttons {
+	position: absolute;
+	margin: 20 520;
+}
+
+#buttons div {
+	display: inline;
+}
+
+input {
+	height: 2em;
+}
+
+#footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	line-height: 15px;
+	background-color: #f2f2f2;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #666;
+	list-style-type: none;
+}
+
+#footer_l li {
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 27px;
+}
+
+#footer_r li {
+	display: inline-block;
+	float: right;
+	line-height: 40px;
+	vertical-align: middle;
+	padding-right: 27px;
+}
